@@ -20,8 +20,7 @@ const skills = [
   { name: "MONGODB", category: "Skill" },
   { name: "JAVASCRIPT", category: "Skill" },
   { name: "GIT HUB", category: "Skill" },
-  { name: "C", category: "Skill" },
-  { name: "MEDIA QUERY", category: "Skill" },
+
 ];
 
 const AnimatedSection = ({ children }) => {
@@ -68,7 +67,7 @@ export default function Home() {
                 <p className="text-base md:text-lg">
                   I am a{" "}
                   <span className="text-xl md:text-2xl font-bold">
-                    FULL STACK DEVLOPER
+                    MERN DEVLOPER
                   </span>{" "}
                   proficient in building web applications using technologies
                   like{" "}
@@ -119,7 +118,7 @@ export default function Home() {
                     <Github className="h-6 w-6" />
                   </a>
                   <a
-                    href="https://behance.net/thangnguyenduc20"
+                    href="https://nilesh-panchal.vercel.app/"
                     className="hover:text-purple-400"
                   >
                     <Globe />
@@ -162,7 +161,7 @@ export default function Home() {
                 <span className="bg-purple-600 rounded-full px-3 py-1 text-sm">
                   2021 - 2024
                 </span>
-                <span>B.COM - Gujrat University</span>
+                <span>B.COM - Gujarat University</span>
               </div>
             </div>
             <div className="bg-purple-800 bg-opacity-30 rounded-3xl p-6 space-y-4">

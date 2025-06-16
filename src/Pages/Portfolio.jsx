@@ -5,7 +5,7 @@ import { ArrowUpRight } from "lucide-react";
 import { Button } from "react-bootstrap";
 import { motion } from "framer-motion";
 
-// Assuming these images are properly imported and available
+
 import fastFoodBT from "../imgs/fastfood-bt.png";
 import infratructure from "../imgs/Infratructure-bt.png";
 import stackoverflow from "../imgs/stackoverflow.png";
@@ -31,7 +31,7 @@ const projects = [
     id: 2,
     title: "Events & Feedback System",
     image: Event,
-    tags: ["React.js","Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
+    tags: ["React.js", "Node.js", "Express.js", "Tailwind CSS", "MongoDB"],
     category: "Fullstack",
     link: "https://feedback-system-amber.vercel.app/",
   },
