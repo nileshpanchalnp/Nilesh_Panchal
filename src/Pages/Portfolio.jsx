@@ -31,7 +31,7 @@ const projects = [
     id: 2,
     title: "Events & Feedback System",
     image: Event,
-    tags: ["React.js", "Node.js", "Express.js", "Tailwind CSS", "MongoDB"],
+    tags: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
     category: "Fullstack",
     link: "https://feedback-system-amber.vercel.app/",
   },
