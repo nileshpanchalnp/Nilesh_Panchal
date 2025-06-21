@@ -95,8 +95,8 @@ export default function Contact() {
   };
 
   return (
-    <div className="min-h-screen text-white">
-      <div className="max-w-7xl mx-auto px-4 py-12">
+        <div className="min-h-screen text-white bg-gray-900">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12">
         <AnimatedSection>
           <h1 className="text-4xl font-bold text-center mb-6 bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 via-cyan-400 to-emerald-400">
             Contact

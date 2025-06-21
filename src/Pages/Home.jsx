@@ -41,10 +41,12 @@ const AnimatedSection = ({ children }) => {
 
 export default function Home() {
   return (
-    <div className="min-h-screen text-white p-4 md:p-8">
-      <div className="max-w-7xl mx-auto ">
+        <div className="min-h-screen text-white bg-gray-900">
+      <div className="container mx-auto px-4 sm:px-6 py-12">
+        {/* About Section */}
         <AnimatedSection>
-          <div className="grid md:grid-cols-2 gap-6 md:gap-12 items-center ms-0 md:ms-2">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            {/* Left Text Section */}
             <div className="space-y-6">
               <motion.div
                 initial={{ opacity: 0, x: -20 }}
@@ -61,33 +63,29 @@ export default function Home() {
                 className="space-y-4"
               >
                 <p className="text-lg">Hi</p>
-                <p className="text-2xl md:text-2xl font-bold">
-                  My Name Nilesh Panchal
-                </p>
-                <p className="text-base md:text-lg">
+                <p className="text-2xl font-bold">My Name Nilesh Panchal</p>
+                <p className="text-base sm:text-lg leading-relaxed">
                   I am a{" "}
-                  <span className="text-xl md:text-2xl font-bold">
-                    MERN DEVLOPER
-                  </span>{" "}
-                  proficient in building web applications using technologies
-                  like{" "}
+                  <span className="text-xl font-bold">MERN DEVELOPER</span>{" "}
+                  proficient in building web applications using technologies like{" "}
                   <span className="font-bold">
-                    React.js for the frontend and Node.js, Express, and MongoDB
-                    for the backend.{" "}
-                  </span>{" "}
-                  <br />- I have experience implementing features such as user{" "}
-                  <span className="font-bold">
-                    authentication, dynamic dashboards, and responsive designs
+                    React.js, Node.js, Express, and MongoDB
                   </span>
-                  . Your projects often involve creating seamless user
-                  experiences with well-integrated APIs and databases.
+                  . <br />
+                  I have experience implementing features like{" "}
+                  <span className="font-bold">
+                    authentication, dashboards, and responsive designs
+                  </span>
+                  , and aim to create seamless user experiences.
                 </p>
                 <p className="text-lg">
-                  My objective: Challenge myself in a new environment to learn,
-                  develop, improve my skills through different projects and
-                  contribute more to the company with my abilities.
+                  <span className="font-semibold">Objective:</span> Challenge
+                  myself in a new environment to learn, improve my skills, and
+                  contribute meaningfully to the company.
                 </p>
               </motion.div>
+
+              {/* Contact */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -95,32 +93,17 @@ export default function Home() {
                 className="space-y-2"
               >
                 <h3 className="text-xl font-semibold">Contact</h3>
-                <div className="flex flex-wrap gap-4 md:space-x-4">
-                  <a
-                    href="mailto:nileshpanchal4411@gmail.com"
-                    className="hover:text-purple-400"
-                  >
+                <div className="flex flex-wrap gap-4">
+                  <a href="mailto:nileshpanchal4411@gmail.com" className="hover:text-purple-400">
                     <Mail />
                   </a>
-                  <a
-                    href="https://www.linkedin.com/in/nilesh-panchal-b842472a1"
-                    className="hover:text-purple-400"
-                  >
+                  <a href="https://www.linkedin.com/in/nilesh-panchal-b842472a1" className="hover:text-purple-400">
                     <Linkedin />
                   </a>
-                  <a
-                    href="https://github.com/nileshpanchalnp"
-                    className="hover:text-purple-400"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="GitHub"
-                  >
+                  <a href="https://github.com/nileshpanchalnp" className="hover:text-purple-400" target="_blank" rel="noopener noreferrer">
                     <Github className="h-6 w-6" />
                   </a>
-                  <a
-                    href="https://nilesh-panchal.vercel.app/"
-                    className="hover:text-purple-400"
-                  >
+                  <a href="https://nilesh-panchal.vercel.app/" className="hover:text-purple-400">
                     <Globe />
                   </a>
                   <a href="tel:0397168247" className="hover:text-purple-400">
@@ -129,72 +112,71 @@ export default function Home() {
                 </div>
               </motion.div>
             </div>
+
+            {/* Right Image Section */}
             <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.2, duration: 0.8 }}
-              className="relative"
+              className="relative flex justify-center"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-teal-400 to-purple-500 rounded-full blur-2xl opacity-30"></div>
               <img
-                src={self || "/placeholder.svg"}
+                src={self}
                 alt="Nilesh Panchal"
-                width={300}
-                height={300}
-                className="rounded-full border-4 border-purple-500 relative z-10"
+                className="w-40 h-40 sm:w-52 sm:h-52 md:w-72 md:h-72 rounded-full border-4 border-purple-500 relative z-10"
               />
             </motion.div>
           </div>
         </AnimatedSection>
 
+        {/* Education & Certificate */}
         <AnimatedSection>
-          <div className="mt-16 grid md:grid-cols-2 gap-8">
+          <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-purple-800 bg-opacity-30 rounded-3xl p-6 space-y-4">
               <h3 className="text-xl font-semibold">Education</h3>
-              <div className="flex items-center space-x-2">
-                <span className="bg-purple-600 rounded-full px-3 py-1 text-sm">
-                  2024 - Now
-                </span>
-                <span>MCA - Dr. Baba Saheb Ambedkar Open University</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <span className="bg-purple-600 rounded-full px-3 py-1 text-sm">
-                  2021 - 2024
-                </span>
-                <span>B.COM - Gujarat University</span>
+              <div className="space-y-2">
+                <div className="flex items-center space-x-2">
+                  <span className="bg-purple-600 rounded-full px-3 py-1 text-sm">2024 - Now</span>
+                  <span>MCA - Dr. Baba Saheb Ambedkar Open University</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <span className="bg-purple-600 rounded-full px-3 py-1 text-sm">2021 - 2024</span>
+                  <span>B.COM - Gujarat University</span>
+                </div>
               </div>
             </div>
             <div className="bg-purple-800 bg-opacity-30 rounded-3xl p-6 space-y-4">
-              <h3 className="text-xl font-semibold">Certificate </h3>
-              <div className="flex items-center space-x-3">
-                <span className="bg-purple-600 rounded-full px-3 py-1 text-sm w-48">
-                  2023 - 2024
-                </span>
-                <span>
-                  {" "}
-                  Full Stack Development (MERN) Cetificate Courses - At - Red &
-                  White multimedia Education Zone{" "}
-                </span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <span className="bg-purple-600 rounded-full px-3 py-1 text-sm w-48">
-                  16/09/2024 to 16/10/2024.
-                </span>
-                <span>
-                  {" "}
-                  successfully completed an internship in Full Stack Development
-                  (MERN) at Bluecore IT Company{" "}
-                </span>
+              <h3 className="text-xl font-semibold">Certificate</h3>
+              <div className="space-y-2">
+                <div className="flex flex-wrap items-start gap-2">
+                  <span className="bg-purple-600 rounded-full px-3 py-1 text-sm">
+                    2023 - 2024
+                  </span>
+                  <p className="text-sm sm:text-base leading-snug">
+                    Full Stack Development (MERN) Certificate Course - Red & White Multimedia Education
+                  </p>
+                </div>
+                <div className="flex flex-wrap items-start gap-2">
+                  <span className="bg-purple-600 rounded-full px-3 py-1 text-sm">
+                    16/09/2024 - 16/10/2024
+                  </span>
+                  <p className="text-sm sm:text-base leading-snug">
+                    Internship in Full Stack Development (MERN) at Bluecore IT Company
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </AnimatedSection>
 
+        {/* Technical & Soft Skills */}
         <AnimatedSection>
-          <div className="mt-8 grid md:grid-cols-2 gap-8">
+          <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Technical Skills */}
             <div className="bg-purple-800 bg-opacity-30 rounded-3xl p-6 space-y-4">
-              <h3 className="text-xl font-semibold">Technical skill</h3>
-              <div className="grid grid-cols-2 gap-4">
+              <h3 className="text-xl font-semibold">Technical Skills</h3>
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                 {skills
                   .filter((s) => s.category === "Skill")
                   .map((skill, index) => (
@@ -211,10 +193,12 @@ export default function Home() {
                   ))}
               </div>
             </div>
+
+            {/* Soft Skills + Interest + Language */}
             <div className="space-y-8">
               <div className="bg-purple-800 bg-opacity-30 rounded-3xl p-6 space-y-4">
-                <h3 className="text-xl font-semibold">Soft skill</h3>
-                <div className="grid grid-cols-2 gap-4">
+                <h3 className="text-xl font-semibold">Soft Skills</h3>
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                   {skills
                     .filter((s) => s.category === "Soft")
                     .map((skill, index) => (
@@ -231,6 +215,7 @@ export default function Home() {
                     ))}
                 </div>
               </div>
+
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-purple-800 bg-opacity-30 rounded-3xl p-6">
                   <h3 className="text-xl font-semibold mb-2">Interest</h3>
