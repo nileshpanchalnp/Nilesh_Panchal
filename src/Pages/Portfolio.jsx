@@ -17,17 +17,18 @@ import TranspoTrack from "../imgs/Managment.png";
 import Calendar from "../imgs/Event_Scheduler_Calendar.png"
 import taskmaster from "../imgs/Taskmaster.png"
 import Event from "../imgs/Event_feedback.png"
- 
+import jobportal from "../imgs/jobportal.png"
+
 const projects = [
   {
     id: 1,
-    title: "CodeQ: Ask, Answer, and Grow Together",
-    image: stackoverflow,
-    tags: ["React.js", "Node.js", "Express.js", "MongoDB"],
+    title: "JobPortal: Find Your Dream Job",
+    image: jobportal,
+    tags: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
     category: "Fullstack",
-    link: "https://stack-overflow-project-gamma.vercel.app/",
+    link: "https://job-portal-five-lilac.vercel.app/",
   },
-    {
+  {
     id: 2,
     title: "Events & Feedback System",
     image: Event,
@@ -37,6 +38,14 @@ const projects = [
   },
   {
     id: 3,
+    title: "CodeQ: Ask, Answer, and Grow Together",
+    image: stackoverflow,
+    tags: ["React.js", "Node.js", "Express.js", "MongoDB"],
+    category: "Fullstack",
+    link: "https://stack-overflow-project-gamma.vercel.app/",
+  },
+  {
+    id: 4,
     title: "TaskMaster",
     image: taskmaster,
     tags: ["React.js", "Tailwind CSS", "Frontend Development"],
@@ -44,7 +53,7 @@ const projects = [
     link: "https://todo-list--seven.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Event Scheduler Calendar",
     image: Calendar,
     tags: ["React.js", "Tailwind CSS", "Frontend Development"],
@@ -52,7 +61,7 @@ const projects = [
     link: "https://event-scheduler-calendar-two.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "TranspoTrack – Management System",
     image: TranspoTrack,
     tags: ["React.js", "CSS", "Frontend Development"],
@@ -60,7 +69,7 @@ const projects = [
     link: "https://np-react-assignment.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Infrabuild: Shaping the Modern World",
     image: infratructure,
     tags: ["HTML", "CSS", "BOOTSTRAP"],
@@ -68,7 +77,7 @@ const projects = [
     link: "https://nileshpanchalnp.github.io/Bootstrap_animation_webside/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Hunger Game: Satisfy Your Cravings!",
     image: fastFoodBT,
     tags: ["HTML", "CSS", "BOOTSTRAP"],
@@ -76,7 +85,7 @@ const projects = [
     link: "https://nileshpanchalnp.github.io/Hunger_Game_Bootstrap/",
   },
   {
-    id: 8,
+    id: 9,
     title: "Artful Interiors. – Furniture that Fits Your Lifestyle",
     image: furniture,
     tags: ["React.js", "Node.js", "Express.js", "MongoDB"],
@@ -84,7 +93,7 @@ const projects = [
     link: "https://artful-interiors.example.com",
   },
   {
-    id: 9,
+    id: 10,
     title: "ControlHub – Your Dashboard, Simplified",
     image: adminpanel,
     tags: ["React.js", "CSS", "Frontend Development"],
@@ -92,7 +101,7 @@ const projects = [
     link: "https://controlhub.example.com",
   },
   {
-    id: 10,
+    id: 11,
     title: "IceCreamery – Scoops Full of Happiness",
     image: icecrem,
     tags: ["HTML", "CSS", "jQuery"],
@@ -100,7 +109,7 @@ const projects = [
     link: "https://nileshpanchalnp.github.io/Jquery_webside/",
   },
   {
-    id: 11,
+    id: 12,
     title: "CR TECH – Your Guide to the Latest Tech",
     image: techCSS,
     tags: ["HTML", "CSS", "BOOTSTRAP"],
@@ -109,7 +118,7 @@ const projects = [
   },
 ];
 
-const categories = ["All","Frontend" , "Fullstack","Web App" ];
+const categories = ["All", "Frontend", "Fullstack", "Web App"];
 
 export default function Portfolio() {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -141,11 +150,10 @@ export default function Portfolio() {
               key={category}
               variant={category === selectedCategory ? "secondary" : "outline"}
               onClick={() => setSelectedCategory(category)}
-              className={`${
-                category === selectedCategory
+              className={`${category === selectedCategory
                   ? "bg-purple-600 text-white"
                   : "text-purple-300 border-purple-300 hover:bg-purple-700 hover:text-white"
-              }`}
+                }`}
             >
               {category}
             </Button>
