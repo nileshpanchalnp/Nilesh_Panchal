@@ -11,13 +11,14 @@ import infratructure from "../imgs/Infratructure-bt.png";
 import stackoverflow from "../imgs/stackoverflow.png";
 import furniture from "../imgs/furniture.png";
 import adminpanel from "../imgs/admin-panal-react.png";
-import icecrem from "../imgs/icecream-jquery.png";
 import techCSS from "../imgs/tech-css.png";
 import TranspoTrack from "../imgs/Managment.png";
 import Calendar from "../imgs/Event_Scheduler_Calendar.png"
 import taskmaster from "../imgs/Taskmaster.png"
 import Event from "../imgs/Event_feedback.png"
 import jobportal from "../imgs/jobportal.png"
+import Blog from "../imgs/Blog.png"
+
 
 const projects = [
   {
@@ -42,10 +43,18 @@ const projects = [
     image: stackoverflow,
     tags: ["React.js", "Node.js", "Express.js", "MongoDB"],
     category: "Fullstack",
-    link: "https://stack-overflow-project-gamma.vercel.app/",
+    link: "https://stack-over-flow-clone-alpha.vercel.app/",
   },
   {
     id: 4,
+    title: "BlogHub, Discover Amazing Stories & Ideas",
+    image: Blog,
+    tags: ["React.js","Tailwind CSS","Node.js", "Express.js", "MongoDB"],
+    category: "Fullstack",
+    link: "https://stack-over-flow-clone-alpha.vercel.app/",
+  },
+  {
+    id: 5,
     title: "TaskMaster",
     image: taskmaster,
     tags: ["React.js", "Tailwind CSS", "Frontend Development"],
@@ -53,7 +62,7 @@ const projects = [
     link: "https://todo-list--seven.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Event Scheduler Calendar",
     image: Calendar,
     tags: ["React.js", "Tailwind CSS", "Frontend Development"],
@@ -61,7 +70,7 @@ const projects = [
     link: "https://event-scheduler-calendar-two.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "TranspoTrack – Management System",
     image: TranspoTrack,
     tags: ["React.js", "CSS", "Frontend Development"],
@@ -69,7 +78,7 @@ const projects = [
     link: "https://np-react-assignment.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Infrabuild: Shaping the Modern World",
     image: infratructure,
     tags: ["HTML", "CSS", "BOOTSTRAP"],
@@ -77,7 +86,7 @@ const projects = [
     link: "https://nileshpanchalnp.github.io/Bootstrap_animation_webside/",
   },
   {
-    id: 8,
+    id: 9,
     title: "Hunger Game: Satisfy Your Cravings!",
     image: fastFoodBT,
     tags: ["HTML", "CSS", "BOOTSTRAP"],
@@ -85,7 +94,7 @@ const projects = [
     link: "https://nileshpanchalnp.github.io/Hunger_Game_Bootstrap/",
   },
   {
-    id: 9,
+    id: 10,
     title: "Artful Interiors. – Furniture that Fits Your Lifestyle",
     image: furniture,
     tags: ["React.js", "Node.js", "Express.js", "MongoDB"],
@@ -93,20 +102,12 @@ const projects = [
     link: "https://artful-interiors.example.com",
   },
   {
-    id: 10,
+    id: 11,
     title: "ControlHub – Your Dashboard, Simplified",
     image: adminpanel,
     tags: ["React.js", "CSS", "Frontend Development"],
     category: "Frontend",
     link: "https://controlhub.example.com",
-  },
-  {
-    id: 11,
-    title: "IceCreamery – Scoops Full of Happiness",
-    image: icecrem,
-    tags: ["HTML", "CSS", "jQuery"],
-    category: "Web App",
-    link: "https://nileshpanchalnp.github.io/Jquery_webside/",
   },
   {
     id: 12,
