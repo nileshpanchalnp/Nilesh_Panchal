@@ -137,7 +137,7 @@ export default function Home() {
               <h3 className="text-xl font-semibold">Education</h3>
               <div className="space-y-2">
                 <div className="flex items-center space-x-2">
-                  <span className="bg-purple-600 rounded-full px-3 py-1 text-sm">2024 - Now</span>
+                  <span className="bg-purple-600 rounded-full px-3 py-1 text-sm">2024 - 2026</span>
                   <span>MCA - Dr. Baba Saheb Ambedkar Open University</span>
                 </div>
                 <div className="flex items-center space-x-2">

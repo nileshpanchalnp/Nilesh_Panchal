@@ -51,7 +51,7 @@ const projects = [
     image: Blog,
     tags: ["React.js","Tailwind CSS","Node.js", "Express.js", "MongoDB"],
     category: "Fullstack",
-    link: "https://stack-over-flow-clone-alpha.vercel.app/",
+    link: "https://blog-system-eta.vercel.app/",
   },
   {
     id: 5,
