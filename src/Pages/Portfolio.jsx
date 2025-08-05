@@ -18,11 +18,20 @@ import taskmaster from "../imgs/Taskmaster.png"
 import Event from "../imgs/Event_feedback.png"
 import jobportal from "../imgs/jobportal.png"
 import Blog from "../imgs/Blog.png"
+import finova from "../imgs/Finova.jpg"
 
 
 const projects = [
   {
     id: 1,
+    title: "Finova - Smart Billing & Accounting",
+    image: finova,
+    tags: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB","Group Project"],
+    category: "Fullstack",
+    link: "https://acc-hisab.netlify.app/",
+  },
+  {
+    id: 2,
     title: "JobPortal: Find Your Dream Job",
     image: jobportal,
     tags: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
@@ -30,7 +39,7 @@ const projects = [
     link: "https://job-portal-five-lilac.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Events & Feedback System",
     image: Event,
     tags: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
@@ -38,7 +47,7 @@ const projects = [
     link: "https://feedback-system-amber.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "CodeQ: Ask, Answer, and Grow Together",
     image: stackoverflow,
     tags: ["React.js", "Node.js", "Express.js", "MongoDB"],
@@ -46,7 +55,7 @@ const projects = [
     link: "https://stack-over-flow-clone-alpha.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "BlogHub, Discover Amazing Stories & Ideas",
     image: Blog,
     tags: ["React.js","Tailwind CSS","Node.js", "Express.js", "MongoDB"],
@@ -54,7 +63,7 @@ const projects = [
     link: "https://blog-system-eta.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "TaskMaster",
     image: taskmaster,
     tags: ["React.js", "Tailwind CSS", "Frontend Development"],
@@ -62,7 +71,7 @@ const projects = [
     link: "https://todo-list--seven.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Event Scheduler Calendar",
     image: Calendar,
     tags: ["React.js", "Tailwind CSS", "Frontend Development"],
@@ -70,7 +79,7 @@ const projects = [
     link: "https://event-scheduler-calendar-two.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "TranspoTrack – Management System",
     image: TranspoTrack,
     tags: ["React.js", "CSS", "Frontend Development"],
@@ -78,7 +87,7 @@ const projects = [
     link: "https://np-react-assignment.vercel.app/",
   },
   {
-    id: 8,
+    id: 9,
     title: "Infrabuild: Shaping the Modern World",
     image: infratructure,
     tags: ["HTML", "CSS", "BOOTSTRAP"],
@@ -86,7 +95,7 @@ const projects = [
     link: "https://nileshpanchalnp.github.io/Bootstrap_animation_webside/",
   },
   {
-    id: 9,
+    id: 10,
     title: "Hunger Game: Satisfy Your Cravings!",
     image: fastFoodBT,
     tags: ["HTML", "CSS", "BOOTSTRAP"],
@@ -94,7 +103,7 @@ const projects = [
     link: "https://nileshpanchalnp.github.io/Hunger_Game_Bootstrap/",
   },
   {
-    id: 10,
+    id: 11,
     title: "Artful Interiors. – Furniture that Fits Your Lifestyle",
     image: furniture,
     tags: ["React.js", "Node.js", "Express.js", "MongoDB"],
@@ -102,7 +111,7 @@ const projects = [
     link: "https://artful-interiors.example.com",
   },
   {
-    id: 11,
+    id: 12,
     title: "ControlHub – Your Dashboard, Simplified",
     image: adminpanel,
     tags: ["React.js", "CSS", "Frontend Development"],
@@ -110,7 +119,7 @@ const projects = [
     link: "https://controlhub.example.com",
   },
   {
-    id: 12,
+    id: 13,
     title: "CR TECH – Your Guide to the Latest Tech",
     image: techCSS,
     tags: ["HTML", "CSS", "BOOTSTRAP"],
