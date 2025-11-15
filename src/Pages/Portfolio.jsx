@@ -48,11 +48,11 @@ const projects = [
   },
   {
     id: 4,
-    title: "CodeQ: Ask, Answer, and Grow Together",
+    title: "Coder-Connect: Ask, Answer, and Grow Together",
     image: stackoverflow,
     tags: ["React.js", "Node.js", "Express.js", "MongoDB"],
     category: "Fullstack",
-    link: "https://stack-over-flow-clone-alpha.vercel.app/",
+    link: "https://coder-connect.vercel.app/",
   },
   {
     id: 5,
