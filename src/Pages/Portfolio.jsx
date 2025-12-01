@@ -1,11 +1,7 @@
-"use client";
-
 import { useState } from "react";
 import { ArrowUpRight } from "lucide-react";
 import { Button } from "react-bootstrap";
 import { motion } from "framer-motion";
-
-
 import fastFoodBT from "../imgs/fastfood-bt.png";
 import infratructure from "../imgs/Infratructure-bt.png";
 import stackoverflow from "../imgs/stackoverflow.png";
