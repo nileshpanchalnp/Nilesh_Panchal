@@ -26,8 +26,16 @@ const projects = [
     category: "Fullstack",
     link: "https://acc-hisab.netlify.app/",
   },
-  {
+    {
     id: 2,
+    title: "Coder-Connect: Ask, Answer, and Grow Together",
+    image: stackoverflow,
+    tags: ["React.js", "Node.js", "Express.js", "MongoDB"],
+    category: "Fullstack",
+    link: "https://coder-connect.vercel.app/",
+  },
+  {
+    id: 3,
     title: "JobPortal: Find Your Dream Job",
     image: jobportal,
     tags: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
@@ -35,20 +43,12 @@ const projects = [
     link: "https://job-portal-five-lilac.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Events & Feedback System",
     image: Event,
     tags: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
     category: "Fullstack",
     link: "https://feedback-system-amber.vercel.app/",
-  },
-  {
-    id: 4,
-    title: "Coder-Connect: Ask, Answer, and Grow Together",
-    image: stackoverflow,
-    tags: ["React.js", "Node.js", "Express.js", "MongoDB"],
-    category: "Fullstack",
-    link: "https://coder-connect.vercel.app/",
   },
   {
     id: 5,
