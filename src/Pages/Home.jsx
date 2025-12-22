@@ -106,7 +106,7 @@ export default function Home() {
                   <a href="https://nilesh-panchal.vercel.app/" className="hover:text-purple-400">
                     <Globe />
                   </a>
-                  <a href="tel:0397168247" className="hover:text-purple-400">
+                  <a href="tel:9898471043" className="hover:text-purple-400">
                     <Phone />
                   </a>
                 </div>
