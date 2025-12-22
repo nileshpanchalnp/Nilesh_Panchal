@@ -37,7 +37,7 @@ export default function Contact() {
     saveInfo: false,
   });
   const [statusMessage, setStatusMessage] = useState("");
-  const [statusType, setStatusType] = useState(""); // 'success' or 'error'
+  const [statusType, setStatusType] = useState(""); 
   const formRef = useRef();
 
   const handleChange = (e) => {
