@@ -26,7 +26,7 @@ export default function Sidebar({ open, setOpen }) {
 
   return (
     <div
-      className={`lg:block bg-gray-900  fixed inset-y-0 left-0 z-50 w-64 bg-white shadow-lg transform transition-transform duration-300 ease-in-out ${
+      className={`lg:block bg-gray-900  fixed inset-y-0 left-0 z-50 w-64  shadow-lg transform transition-transform duration-300 ease-in-out ${
         open ? "translate-x-0" : "-translate-x-full"
       } lg:translate-x-0`}
     >
